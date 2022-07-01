@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formDiv {
+    margin-top: 10px;
+    width: 1280px;
+    padding: 20px;
+    height: fit-content;
+    background-color: #175A7E;
+    border-radius: 32px;
+}
+
+.logo {
+    width: 6%;
+}
+
+.login {
+    padding-left: 116.9px;
+    display: flex;
+    align-items: center;
+}
+
+.login input[type=button] {
+    transition: all 0.4s ease;
+    width: 160px;
+    height: 42.5px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(141, 141, 141);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.login input[type=button]:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background: #adadad;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.login input[type=button2] {
+    transition: all 0.4s ease;
+    width: 110px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px;
+    margin-right: 10px;
+    text-align: center
+}
+
+.login input[type=button2]:hover {
+    opacity: 0.8;
+    color: #cac9c9;
+    border-bottom: 3px solid #fff;
+}
+
+.login input[type=button]:active {
+    opacity: 0.6;
+}
+
+.login input[type=button]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.header {
+    margin-top: 47px;
+    margin-bottom: 83px;
+    display: flex;
+}
+
+.learn {
+    color: #fff;
+    font-family: 'Fredoka One';
+    font-size: 71px;
+    font-weight: 200;
+    margin-top: 76px;
+    position: relative;
+    top: 36px;
+}
+
+.right {
+    position: relative;
+}
+
+
+.image img {
+    width: 806px;
+    position: absolute;
+    left: -377px;
+    margin-top: 162px;
+}
+
+
+.image2 {
+    position: absolute;
+    width: 806px;
+    right: -7px;
+    bottom: -161.8px;
+}
+
+.Explorebtn {
+    padding-left: 187.9px;
+    margin-top: 82px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Explorebtn input[type=button] {
+    transition: all 0.4s ease;
+    width: 170px;
+    height: 59.5px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    color: #175A7E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Explorebtn input[type=button]:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background: #adadad;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+#formDivsecond {
+    padding-top: 10px;
+    width: 1280px;
+    height: 100px;
+    padding: 20px;
+    height: fit-content;
+    color: #175A7E;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.quistion h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quistion p {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #adadad;
+}
+
+
+.units {
+    display: flex;
+    padding: 23px 5px;
+    margin-bottom: 11px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(76 75 75 / 5%), 0 6px 20px 0 rgb(0 0 0 / 1%);
+}
+
+.units img,
+.words {
+    height: 56px;
+    padding-left: 22px;
+}
+
+.words p {
+    color: #adadad;
+    font-size: 14px;
+}
+
+.register {
+    padding-left: 15px;
+    margin-top: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.register input[type=button] {
+    transition: all 0.4s ease;
+    width: 159px;
+    height: 42.5px;
+    background: #175A7E;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgb(76 75 75 / 5%), 0 6px 20px 0 rgb(0 0 0 / 1%);
+}
+
+.register input[type=button]:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background: #adadad;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+
+#formDivthird {
+    margin-top: 10px;
+    width: 1280px;
+    padding: 16px;
+    height: fit-content;
+    background-color: #efebeb;
+    border-radius: 32px;
+}
+
+.content {
+    text-align: center;
+    color: #adadad;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content span {
+    color: #175A7E
+}
+
+.content img {
+    height: 287px;
+    padding: 10px 0px;
+}
+
+.lines {
+    margin-top: 10px;
+}
+
+.tstmoni {
+    padding: 37px;
+}
+
+#formDivfooter {
+    margin-top: 10px;
+    width: 1280px;
+    padding-top: 30px;
+    height: fit-content;
+    background-color: #175A7E;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+@media (max-width: 567em) {
+    body {
+        margin-bottom: 700px;
+    }
+
+    .footer {
+        height: 700px;
+    }
+}
+
+footer {
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    color: #adadad;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.nav-link {
+    color: #fff;
+}
